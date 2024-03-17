@@ -1,0 +1,15 @@
+:root{
+
+    --clr-brown:#7F4F24;               /*משנים את השמות אחר כך*/
+    --clr-light-brown:#A68A64;
+    --clr-grey:#C2C5AA;
+    --clr-green-grey:#656D4A;
+    --clr-dark-green:#333D29;
+    --clr-white:#fff;
+    --clr-blue:rgb(43, 77, 80) ;
+
+                                     /*font size*/
+    
+    /* --header_font_s;                                */
+
+}

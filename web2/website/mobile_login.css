@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('./reset.css');
+@import url('./ver.css');
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-image: url('../assets/images/atal2.png');
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-color: var(--clr-blue);
+    color: var(--clr-brown);
+    height: 12vh;
+    text-align: center;
+    padding: 1em;
+    border-radius: 8px;
+    width: 100%;
+    
+}
+body{
+    
+    
+    background-image: url('../assets/images/bg_5.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 67%,50%;
+    
+}
+
+.wrapper{
+    color: var(--clr-white);
+    margin-left: 222px;
+    width:400px;
+    height: 500px;
+    
+    border-radius: 40px;
+    background: black;
+    
+    -webkit-box-shadow: 13.5px 11px 14.5px -0.5px #82f5f9;
+    -moz-box-shadow: 13.5px 11px 14.5px -0.5px #82f5f9;
+    box-shadow: 13.5px 11px 14.5px -0.5px #238386;
+    
+}
+.input{
+    width:220px;
+    background-color: #EABE6C
+}
+
+p{
+    color:var(--clr-grey)
+}
+
+button {
+    background-color:var(--clr-brown);
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    font-size: 0.59em;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+button:hover {
+    background-color: var(--clr-grey); 
+    color: var(--clr-brown);
+}
+
+#password{
+margin-bottom: 40%;
+}
+#title{
+    background-color:var(--clr-light-brown);                        /*<=========================<============< variablels prob*/
+    height: 50px;
+    width: 80px;
+    margin-left: 100px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+h2{
+    background-color: #eb8007;
+    height: 40px;
+    width: 100px;
+    margin-left: 100px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+input{
+    
+    height: 20px;
+    color: blue;
+}
+.input:hover{
+    border-radius: 20px;
+}
